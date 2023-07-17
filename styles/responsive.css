@@ -42,3 +42,18 @@
       padding-top: 0;
    }
 }
+
+/* Breakpoint 800px */
+@media screen and (max-width: 800px) {
+   .hero-right img {
+      width: 77%;
+      display: block;
+      margin: auto;
+   }
+   .collections-wrapper {
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .featured-wrapper {
+      gap: 30px;
+   }
+}

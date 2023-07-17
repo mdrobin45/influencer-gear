@@ -151,6 +151,7 @@ p.abail {
    align-items: center;
    justify-content: space-around;
    padding: 3rem 0;
+   gap: 2rem;
 }
 .featured-content-wrapper {
    width: 50%;
