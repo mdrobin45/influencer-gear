@@ -1,0 +1,44 @@
+/* Breakpoint 576px */
+@media screen and (max-width: 576px) {
+   .mobile-header {
+      display: flex;
+   }
+   h2.logo {
+      font-size: 16px;
+   }
+   .desktop-header {
+      display: none;
+   }
+   .hero-section {
+      flex-direction: column-reverse;
+   }
+   .hero-right img {
+      width: 75%;
+      margin: auto;
+      display: block;
+   }
+   .hero-left {
+      width: 100%;
+      text-align: center;
+   }
+   .logos-wrapper {
+      grid-template-columns: repeat(2, 1fr);
+   }
+   .collections-wrapper {
+      grid-template-columns: 1fr;
+   }
+   .featured-wrapper {
+      flex-direction: column-reverse;
+      padding-top: 0;
+   }
+   .featured-content-wrapper {
+      width: 100%;
+      text-align: center;
+   }
+   .image-wrapper img {
+      margin-top: 2rem;
+   }
+   .collections {
+      padding-top: 0;
+   }
+}
